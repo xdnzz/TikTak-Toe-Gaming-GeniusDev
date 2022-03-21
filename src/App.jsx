@@ -1,12 +1,13 @@
 import TableGame from "./components/TableGame";
-
+import './global.css';
 
 function App() {
 
   return (
-    <div>
-        <h1>Hello world</h1>
-        <TableGame/>
+    <div className="container">
+        <div className="content"> 
+          <TableGame/>
+        </div>
     </div>
   )
 }

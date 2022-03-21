@@ -64,7 +64,7 @@ export default function TableGame( ){
         
         status = `Winner: ${winner}`;
     } else {
-        status = `Next player: ${isX ? 'X' : 'O'}`
+        status = `Next player: ${isX ? '❌' : '⭕'}`
     }
  
     const renderSquare = (a) => {

@@ -4,7 +4,6 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
- 
     font-size: 1.3rem;
     color: #fff;
 }
@@ -13,6 +12,22 @@
     display: flex;
 }
 
+.content button {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
 .buttonRestartGame {
-    color:red;
+    width: 150px;
+    background: rgb(109, 2, 82);
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    
 }

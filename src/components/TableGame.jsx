@@ -35,7 +35,7 @@ export default function TableGame( ){
             return
         }
       
-        squares[i] = isX ?  'X' : 'O';
+        squares[i] = isX ?  '❌' : '⭕';
         setSquares(squares);
         setIsX(!isX);
     }
@@ -92,7 +92,7 @@ export default function TableGame( ){
                     {renderSquare(8)}
                </div>
                {status}
-               <button className="buttonRestartGame" onClick={restartGame}>Restart game</button>
+               <span className="buttonRestartGame" onClick={restartGame}>Restart</span>
             </div>
         )
     }

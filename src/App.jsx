@@ -5,6 +5,7 @@ function App() {
 
   return (
     <div className="container">
+     <h1> Lets play a game?</h1>
         <div className="content"> 
           <TableGame/>
         </div>

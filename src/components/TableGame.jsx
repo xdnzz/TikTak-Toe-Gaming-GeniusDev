@@ -1,4 +1,7 @@
 import {useState} from 'react';
+import './style.css';
+
+
 
 export default function TableGame( ){
 
@@ -89,7 +92,7 @@ export default function TableGame( ){
                     {renderSquare(8)}
                </div>
                {status}
-               <button onClick={restartGame}>Restart game</button>
+               <button className="buttonRestartGame" onClick={restartGame}>Restart game</button>
             </div>
         )
     }

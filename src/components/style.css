@@ -1,0 +1,18 @@
+
+.board {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ 
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.board-row {
+    display: flex;
+}
+
+.buttonRestartGame {
+    color:red;
+}
